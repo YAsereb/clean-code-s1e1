@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.section-img {
+.img {
   width: 100%;
 }
 
-.section-more-inf {
+.link {
   font-family: fantasy, cursive;
 }
 
@@ -28,7 +28,7 @@
 
 }
 
-.centered-main-page-element {
+.wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -41,7 +41,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.task-wrapper {
   display: flex;
 }
 
