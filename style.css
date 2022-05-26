@@ -21,9 +21,11 @@
 }
 
 @media (max-width:768px) {
-  .aaa {
+
+  .section {
     text-align: center;
   }
+
 }
 
 .centered-main-page-element {
@@ -107,9 +109,6 @@
 .new-task {
   display: block;
   margin: 20px 0 0;
-}
-
-.new-task {
   width: 318px;
 }
 
