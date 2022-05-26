@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.aaa .more_inf {
+.more_inf {
   font-family: fantasy, cursive;
 }
 
@@ -124,10 +124,6 @@
   align-items: center;
 }
 
-li>* {
-  vertical-align: middle;
-}
-
 .checkbox {
   margin: 0 10px;
 }
@@ -139,13 +135,13 @@ li>* {
   width: 226px;
 }
 
-.delete img {
+.delete-button__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.delete-button__image:hover {
   transform: rotateZ(0);
 }
 
@@ -156,15 +152,15 @@ li>* {
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+.text-input_invisible {
   display: none
 }
 
-.editMode input[type="text"] {
+.text-input_visible {
   display: inline-block;
   width: 224px
 }
 
-.editMode label {
+.task-invisible {
   display: none;
 }
