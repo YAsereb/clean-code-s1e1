@@ -84,7 +84,7 @@
   text-transform: uppercase;
 }
 
-.header-text_margin-top {
+.header-text:first-child {
   margin-top: 1em;
 }
 
