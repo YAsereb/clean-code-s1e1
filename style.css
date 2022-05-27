@@ -43,6 +43,7 @@
 
 .task-wrapper {
   display: flex;
+  align-items: flex-end;
 }
 
 .list {
@@ -52,24 +53,23 @@
 
 .list__item {
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 
-.input,
-.button {
-  outline: none;
-}
 
-.button {
+.edit-button {
   background: none;
   border: 0px;
   color: #888;
   font-size: 15px;
   width: 60px;
+  height: 20px;
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
 
-.button:hover {
+.edit-button:hover {
   color: #3a3a3a;
 }
 
@@ -101,7 +101,7 @@
   color: #888;
 }
 
-.task:focus {
+.text-input:focus {
   color: #333;
 }
 
@@ -134,8 +134,16 @@
   width: 226px;
 }
 
+.delete-button {
+  background: none;
+  cursor: pointer;
+  border: 0;
+  width: 60px;
+  height: 32px;
+}
+
 .delete-button__img {
-  height: 2em;
+  height: 30px;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
@@ -151,15 +159,13 @@
 }
 
 /* Edit Task */
-.text-input_invisible {
-  display: none;
-}
 
 .text-input_visible {
   display: inline-block;
   width: 224px;
 }
 
+.text-input_invisible,
 .task-invisible {
   display: none;
 }

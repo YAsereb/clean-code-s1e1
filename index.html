@@ -16,8 +16,8 @@
     <section class="wrapper">
       <h3 class="header-text header-text_margin-top">Add Item</h3>
       <div class="task-wrapper">
-        <input class="task text-input new-task" type="text">
-        <button class="button">Add</button>
+        <input id="new-task" class="task text-input new-task" type="text">
+        <button class="edit-button">Add</button>
       </div>
       </p>
       <h3 class="header-text">Todo</h3>
@@ -26,17 +26,17 @@
           <input type="checkbox" class="checkbox">
           <label class="task">Pay Bills</label>
           <input type="text" class="text-input text-input_invisible">
-          <button class="button">Edit</button>
-          <button class="button delete-button">
+          <button class="edit-button">Edit</button>
+          <button class="delete-button">
             <img src="./remove.svg" alt="remove-button" class="delete-button__img">
           </button>
         </li>
-        <li class="edit-mode list__item">
+        <li class="list__item edit-mode">
           <input type="checkbox" class="checkbox">
           <label class="task task-invisible">Go Shopping</label>
           <input type="text" value="Go Shopping" class="text-input text-input_left">
-          <button class="button">Save</button>
-          <button class="button delete-button">
+          <button class="edit-button">Save</button>
+          <button class="delete-button">
             <img src="./remove.svg" alt="remove-button" class="delete-button__img">
           </button>
         </li>
@@ -47,8 +47,8 @@
           <input type="checkbox" checked class="checkbox">
           <label class="task complete-task">See the Doctor</label>
           <input type="text" class="text-input text-input_invisible">
-          <button class="button">Edit</button>
-          <button class="button delete-button">
+          <button class="edit-button">Edit</button>
+          <button class="delete-button">
             <img src="./remove.svg" alt="remove-button" class="delete-button__img">
           </button>
         </li>
