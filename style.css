@@ -1,5 +1,6 @@
 /* Basic Style */
 .container {
+  min-height: 100vh;
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
